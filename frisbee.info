@@ -1,0 +1,21 @@
+name = frisbee
+description = Fixed layout for discimport from 2010.
+version = 7.x-0.1
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/iecss.css
+stylesheets[all][] = css/ie8.css
+stylesheets[all][] = css/blog.css
+stylesheets[print][] = css/print.css
+
+;regions[header] = Header
+;regions[highlighted] = Highlighted
+;regions[help] = Help
+;regions[content] = Content
+;regions[sidebar_first] = Left sidebar
+;regions[sidebar_second] = Right sidebar
+;regions[footer_first] = Footer first
+;regions[footer_second] = Footer second
+
