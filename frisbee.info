@@ -71,10 +71,10 @@ settings[alpha_css][mail.css] = 'mail.css'
 
 ; OPTIONAL STYLESHEETS
 
-;css[commerce_kickstart_style.css][name] = Commerce Kickstart theme global style.
-;css[commerce_kickstart_style.css][description] = This file holds all the globally active custom CSS of Commerce Kickstart theme.
-;css[commerce_kickstart_style.css][options][weight] = 11
-;settings[alpha_css][commerce_kickstart_style.css] = 'commerce_kickstart_style.css'
+css[frisbee_style.css][name] = Frisbee theme global style.
+css[frisbee_style.css][description] = This file holds all the globally active custom CSS of Frisbee theme.
+css[frisbee_style.css][options][weight] = 11
+settings[alpha_css][frisbee_style.css] = 'frisbee_style.css'
 
 ; OPTIONAL LIBRARIES
 
