@@ -53,6 +53,7 @@ zones[postscript] = Postscript
 zones[footer] = Footer first
 zones[footer2] = Footer second
 
+; PULLING IN STYLESHEETS FROM COMMERCE_KICKSTART_THEME
 
 settings[alpha_css][commerce-kickstart-theme-alpha-default-narrow.css] = 'commerce-kickstart-theme-alpha-default-narrow.css'
 settings[alpha_css][commerce-kickstart-theme-alpha-default-normal-rtl.css] = 'commerce-kickstart-theme-alpha-default-normal-rtl.css'
@@ -78,10 +79,6 @@ settings[alpha_css][frisbee_style.css] = 'frisbee_style.css'
 
 ; OPTIONAL LIBRARIES
 
-libraries[commerce_kickstart_theme_custom][name] = Commerce kickstart theme JS
-libraries[commerce_kickstart_theme_custom][description] = This file holds all the custom JS.
-libraries[commerce_kickstart_theme_custom][js][0][file] = commerce_kickstart_theme_custom.js
-libraries[commerce_kickstart_theme_custom][js][0][options][weight] = 15
 settings[alpha_libraries][commerce_kickstart_theme_custom] = 'commerce_kickstart_theme_custom'
 
 ; THEME SETTINGS (DEFAULTS)
