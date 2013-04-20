@@ -1,2 +1,18 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+#block-menu-menu-payment-methods ul.menu li .dankort {
+  background-image: url(/sites/discimport.dk/themes/frisbee/images/dankort.gif);
+}
+
+#block-menu-menu-payment-methods ul.menu li .mastercard {
+  background-image: url(/sites/discimport.dk/themes/frisbee/images/mastercard.gif);
+}
+
+#block-menu-menu-payment-methods ul.menu li .visa {
+  background-image: url(/sites/discimport.dk/themes/frisbee/images/visa.gif);
+}
+
+#block-menu-menu-payment-methods ul.menu li .maestro {
+  background-image: url(/sites/discimport.dk/themes/frisbee/images/maestro.gif);
+}
