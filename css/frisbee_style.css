@@ -1,6 +1,8 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+/* Newest products frontpage */
+
 .front .node-product-type {
   margin: 0;
   padding: 0;
@@ -40,6 +42,35 @@
   text-decoration: none;
   display: block;
 }
+
+/* Related products in blog */
+
+.field-name-field-related-products div.field-items .node {
+    display: inline;
+    height: auto;
+    margin: 0;
+    padding-right: 5px;
+    padding-bottom: 30px;
+    width: 230px;
+    float: left;
+}
+
+.field-name-field-related-products div.field-items .node h2 {
+    font-size: 14px;
+    line-height: 16px;
+    height: 35px;
+    margin: 0 4px;
+}
+
+.field-name-field-related-products div.field-items .node .field-name-commerce-price {
+    color: #ccc;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Payment cards */
 
 #block-menu-menu-payment-methods ul.menu li .dankort {
     background-image: url(/sites/discimport.dk/themes/frisbee/images/dankort.gif);
