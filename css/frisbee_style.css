@@ -1,27 +1,58 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
-.field-name-field-related-products div.field-items .node {
+.front .node-product-type {
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 230px;
+}
+
+.front .all-products .views-row-first {
+  margin: 0;
+  padding: 0;
+}
+
+.front .all-products .views-row {
+    margin: 0;
+    padding: 0;
+}
+
+.front .node-product-type div.field-items {
   display: inline;
   height: auto;
   margin: 0;
-  padding-right: 5px;
-  padding-bottom: 30px;
-  width: 230px;
+  padding-bottom: 20px;
+  width: 225px;
   float: left;
 }
 
-.field-name-field-related-products div.field-items .node h2 {
+.front .node-product-type div.field-items h2 {
   font-size: 14px;
-  line-height: 16px;
-  height: 35px;
+  height: 20px;
   margin: 0 4px;
 }
 
-.field-name-field-related-products div.field-items .node .field-name-commerce-price {
+.front .node-product-type div.field-items .field-name-commerce-price {
   color: #ccc;
   font-size: 12px;
   margin-bottom: 5px;
   text-decoration: none;
   display: block;
+}
+
+#block-menu-menu-payment-methods ul.menu li .dankort {
+    background-image: url(/sites/discimport.dk/themes/frisbee/images/dankort.gif);
+}
+
+#block-menu-menu-payment-methods ul.menu li .mastercard {
+    background-image: url(/sites/discimport.dk/themes/frisbee/images/mastercard.gif);
+}
+
+#block-menu-menu-payment-methods ul.menu li .visa {
+    background-image: url(/sites/discimport.dk/themes/frisbee/images/visa.gif);
+}
+
+#block-menu-menu-payment-methods ul.menu li .maestro {
+    background-image: url(/sites/discimport.dk/themes/frisbee/images/3d-maestro.gif);
 }
