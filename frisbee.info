@@ -1,5 +1,5 @@
 name = 'frisbee'
-description = ''
+description = 'A subtheme of Commerce Kickstart Theme based on Omega Kickstart'
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
