@@ -16,8 +16,8 @@
 }
 
 .front .all-products .views-row {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .front .node-product-type div.field-items {
@@ -46,44 +46,44 @@
 /* Related products in blog */
 
 .field-name-field-related-products div.field-items .node {
-    display: inline;
-    height: auto;
-    margin: 0;
-    padding-right: 5px;
-    padding-bottom: 30px;
-    width: 230px;
-    float: left;
+  display: inline;
+  height: auto;
+  margin: 0;
+  padding-right: 5px;
+  padding-bottom: 30px;
+  width: 230px;
+  float: left;
 }
 
 .field-name-field-related-products div.field-items .node h2 {
-    font-size: 14px;
-    line-height: 16px;
-    height: 35px;
-    margin: 0 4px;
+  font-size: 14px;
+  line-height: 16px;
+  height: 35px;
+  margin: 0 4px;
 }
 
 .field-name-field-related-products div.field-items .node .field-name-commerce-price {
-    color: #ccc;
-    font-size: 12px;
-    margin-bottom: 5px;
-    text-decoration: none;
-    display: block;
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Payment cards */
 
 #block-menu-menu-payment-methods ul.menu li .dankort {
-    background-image: url(/sites/discimport.dk/themes/frisbee/images/dankort.gif);
+  background-image: url(../images/dankort.gif);
 }
 
 #block-menu-menu-payment-methods ul.menu li .mastercard {
-    background-image: url(/sites/discimport.dk/themes/frisbee/images/mastercard.gif);
+  background-image: url(../images/mastercard.gif);
 }
 
 #block-menu-menu-payment-methods ul.menu li .visa {
-    background-image: url(/sites/discimport.dk/themes/frisbee/images/visa.gif);
+  background-image: url(../images/visa.gif);
 }
 
 #block-menu-menu-payment-methods ul.menu li .maestro {
-    background-image: url(/sites/discimport.dk/themes/frisbee/images/3d-maestro.gif);
+  background-image: url(../images/3d-maestro.gif);
 }
