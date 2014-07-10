@@ -87,3 +87,25 @@
 #block-menu-menu-payment-methods ul.menu li .maestro {
     background-image: url(/sites/discimport.dk/themes/frisbee/images/3d-maestro.gif);
 }
+
+/* Commerce Add To Cart Extras */
+
+#views-form-add-to-cart-table-block-1 .form-submit {
+    background-color: #2698F2;
+    background-image: url(/profiles/commerce_kickstart/themes/omega_kickstart/images/bg_add_to_cart.png);
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    border: 0;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    padding: 5px 50px 5px 10px;
+}
