@@ -89,6 +89,21 @@
 }
 
 /* Commerce Add To Cart Extras */
+#views-form-add-to-cart-table-block-1 table {
+    width: 100%;
+    table-layout: fixed;
+    background: white;
+}
+#views-form-add-to-cart-table-block-1 thead th {
+    border-bottom: 2px solid #2698F2;
+}
+#views-form-add-to-cart-table-block-1 tr.even, 
+#views-form-add-to-cart-table-block-1 tr.odd {
+    background: white;
+}
+#views-form-add-to-cart-table-block-1 tr td {
+    vertical-align: middle;
+}
 
 #views-form-add-to-cart-table-block-1 .form-submit {
     background-color: #2698F2;
